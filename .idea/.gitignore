@@ -57,6 +57,3 @@ package-lock.json
 # Sentry DSN or other sensitive API keys
 .sentryclirc
 .env.local
-
-# Python virtual environment
-/venv
