@@ -1,4 +1,4 @@
-# OSDFiles: AI-Powered Folder Tidying App
+# OSDFiles: AI-Powered Folder Tidying App (Under construction 🚧)
 
 OSDFiles is a cross-platform desktop application that helps users organize and tidy their folders using AI. The app is built with **Electron** for the frontend and **Python** for the backend, where the AI logic is implemented.
 

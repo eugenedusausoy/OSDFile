@@ -30,9 +30,14 @@ __pycache__/
 # MacOS system files
 .DS_Store
 
-# Python virtual environments
+# Virtual environments
 venv/
+.venv
+env/
 .env
+ENV/
+env.bak/
+venv.bak/
 
 # OS-specific files
 Thumbs.db
@@ -46,6 +51,34 @@ Desktop.ini
 *.exe
 *.dll
 *.dylib
+
+# -----------------------------
+# Electron
+# -----------------------------
+# Logs
+electron-react-app/logs
+electron-react-app/*.log
+
+# Runtime data
+electron-react-app/pids
+electron-react-app/*.pid
+electron-react-app/*.seed
+
+# Coverage directory used by tools like istanbul
+electron-react-app/coverage
+electron-react-app/.eslintcache
+
+# Dependency directory
+electron-react-app/node_modules
+electron-react-app/release/app/dist
+electron-react-app/release/build
+electron-react-app/.erb/dll
+
+electron-react-app/.idea
+electron-react-app/npm-debug.log.*
+electron-react-app/*.css.d.ts
+electron-react-app/*.sass.d.ts
+electron-react-app/*.scss.d.ts
 
 # Electron Forge output
 /out/
