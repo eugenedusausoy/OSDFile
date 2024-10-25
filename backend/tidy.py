@@ -22,5 +22,5 @@ def tidy_folder(directory):
     apply_new_structure(organization_plan)
 
 if __name__ == "__main__":
-    target_directory = "/path/to/target/directory"  # Set the target directory here
+    target_directory = "/path/to/target/directory"  # Set by the user
     tidy_folder(target_directory)

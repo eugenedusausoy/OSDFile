@@ -1,6 +1,5 @@
-# directory_tree_maker.py
 import json
-from utils import send_to_llm  # Assume this sends data to the LLM and gets a response
+from utils import send_to_llm  # Assumes this sends data to the LLM and gets a response
 
 def get_summaries(files_data):
     """Send each file's metadata to the LLM to get content summaries."""
