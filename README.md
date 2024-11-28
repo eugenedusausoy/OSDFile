@@ -1,6 +1,6 @@
 # OSDFile: AI-Powered Folder Tidying App (Under construction 🚧)
 
-OSDFile is a cross-platform desktop application that helps users organize and tidy their folders using AI. The app is built with **Electron** for the frontend and **Python** for the backend, where the AI logic is implemented.
+OSDFile is a cross-platform desktop application that helps users organize and tidy their folders using AI. The app is built with **Electron** for the frontend and **Python** for the backend, where the AI logic is implemented.  The application is made to be ran locally using **LM Studio** or any other "model runner", but can be used with Groq or any other service providing an API key with a few tweaks to the code.
 
 ## Features
 - **AI-based Folder Organization**: Uses a Python-based AI system to intelligently organize files within a folder.
@@ -15,9 +15,10 @@ OSDFile is a cross-platform desktop application that helps users organize and ti
 
 ---
 
-## **OSDFile : Application de Rangement de Dossiers Alimentée par l'IA (En cours de construction 🚧)**
+## **OSDFile : Application de Rangement de Dossiers par l'IA (En cours de construction 🚧)**
 
-OSDFile est une application de bureau multiplateforme qui aide les utilisateurs à organiser et ranger leurs dossiers grâce à l'IA. L'application est construite avec **Electron** pour le frontend et **Python** pour le backend, où la logique de l'IA est implémentée.
+OSDFile est une application de bureau multiplateforme qui aide les utilisateurs à organiser et ranger leurs dossiers grâce à l'IA. L'application est construite avec **Electron** pour le frontend et **Python** pour le backend, où la logique de l'IA est implémentée. L'application est faite pour fonctionner localement en utilisant **LM STUDIO** ou toute application permettant l'usage de modèles sur une machine. OSDFile peut être utilisé avec Groq ou tout autre service proposant une clé API, en modifiant quelque lignes dans le code.
+
 
 ### **Fonctionnalités**
 - **Organisation de Dossiers Basée sur l'IA** : Utilise un système d'IA basé sur Python pour organiser intelligemment les fichiers dans un dossier.
