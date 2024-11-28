@@ -1,4 +1,3 @@
-import json
 from file_loader import retrieve_file_metadata
 from directory_tree_maker import get_summaries, propose_new_structure
 from organizer import apply_new_structure
@@ -10,16 +9,22 @@ def tidy_folder(directory):
 
     # Step 2: Get summaries
     summaries = get_summaries(files_data)
-    with open("summaries.json", "w") as f:
-        json.dump(summaries, f)
+
+    # Keep summaries as a variable in memory
+    print("Summaries:", summaries)  # Debug: View summaries if needed
 
     # Step 3: Propose a new directory structure
     organization_plan = propose_new_structure(summaries)
-    with open("organization_plan.json", "w") as f:
-        json.dump(organization_plan, f)
+
+    # Keep the proposed organization plan in memory
+    print("Proposed Organization Plan:", organization_plan)  # Debug: View organization plan if needed
 
     # Step 4: Apply the new structure
     apply_new_structure(organization_plan)
+
+# Declare the variables at the module level to make them accessible publicly if needed
+summaries = None
+organization_plan = None
 
 if __name__ == "__main__":
     target_directory = "/path/to/target/directory"  # Set by the user
