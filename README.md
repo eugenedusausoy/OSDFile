@@ -17,7 +17,7 @@ OSDFile is a cross-platform desktop application that helps users organize and ti
 
 ## **OSDFile : Application de Rangement de Dossiers par l'IA (En cours de construction 🚧)**
 
-OSDFile est une application de bureau multiplateforme qui aide les utilisateurs à organiser et ranger leurs dossiers grâce à l'IA. L'application est construite avec **Electron** pour le frontend et **Python** pour le backend, où la logique de l'IA est implémentée. L'application est faite pour fonctionner localement en utilisant **LM STUDIO** ou toute application permettant l'usage de modèles sur une machine. OSDFile peut être utilisé avec Groq ou tout autre service proposant une clé API, en modifiant quelque lignes dans le code.
+OSDFile est une application de bureau multiplateforme qui aide les utilisateurs à organiser et ranger leurs dossiers grâce à l'IA. L'application est construite avec **Electron** pour le frontend et **Python** pour le backend, où la logique de l'IA est implémentée. L'application est faite pour fonctionner localement en utilisant **LM STUDIO** ou toute application permettant l'usage de modèles sur une machine. OSDFile peut être utilisé avec Groq ou tout autre service proposant une clé API, en modifiant quelques lignes dans le code.
 
 
 ### **Fonctionnalités**
